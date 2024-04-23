@@ -2,9 +2,7 @@
 import { useTheme } from "next-themes";
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa6";
 import { LuGraduationCap } from "react-icons/lu";
-import SectionHeading from "./section-heading";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
