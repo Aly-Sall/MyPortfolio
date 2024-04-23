@@ -34,7 +34,7 @@ export default function Experience() {
       description:
         "I worked on implementing a Formula 1 website that showcaces all information regarding drivers, circuits and calendar.",
       icon: React.createElement(CgWorkAlt),
-      date: "Jan 2024 - Mars 2024x",
+      date: "Jan 2024 - Mars 2024",
     },
   ];
   return (
