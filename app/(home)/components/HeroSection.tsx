@@ -10,7 +10,7 @@ const HeroSection = () => {
         <h1 className="text-4xl lg:text-7xl font-bold">
           Nice to meet you ✌🏽! <br />
           <span className="underline underline-offset-8 decoration-blue-800">
-            I'm Aly.
+            I am Aly.
           </span>
         </h1>
         <p className="md:w-96 text-lg text-gray-300 text-center lg:text-left">
