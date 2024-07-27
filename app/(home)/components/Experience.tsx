@@ -24,15 +24,18 @@ export default function Experience() {
       title: "Front-End Developer Internship",
       location: "Mauritanie, Nouadhibou",
       description:
-        "I aimed to create a train ticket website for a National Industrial and Mining Company called SNIM.",
+        "🟢 I aimed to create a train ticket website for a National Industrial and Mining Company called SNIM.",
+      detail:
+        "🟢 I embarked on the creation of a train ticket booking website with the goal of providing users with a seamless and efficient platform to easily search for, select, and purchase train tickets",
       icon: React.createElement(CgWorkAlt),
       date: "Jun 2023 - Sep 2023",
     },
     {
       title: "Front-End Developer Freelance",
-      location: "Tunisia, Tunis",
-      description:
-        "I worked on implementing a Formula 1 website that showcaces all information regarding drivers, circuits and calendar.",
+      location: "Mauritanie",
+      description: "🟢 I worked on an e-commerce website selling watches",
+      detail:
+        "🟢 • I took care of the front-end part of the project, styling the site and adding some interactions as well as the responsive side.",
       icon: React.createElement(CgWorkAlt),
       date: "Jan 2024 - Mars 2024",
     },
@@ -73,6 +76,9 @@ export default function Experience() {
               <p className="font-normal !mt-0">{item.location}</p>
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                 {item.description}
+              </p>
+              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+                {item.detail}
               </p>
             </VerticalTimelineElement>
           </React.Fragment>

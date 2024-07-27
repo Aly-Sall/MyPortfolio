@@ -8,6 +8,11 @@ import {
   SiTailwindcss,
   SiSupabase,
   SiTypescript,
+  SiPython,
+  SiDjango,
+  SiCss3,
+  SiMysql,
+  SiPostgresql,
 } from "react-icons/si";
 
 export default function Skills() {
@@ -17,6 +22,9 @@ export default function Skills() {
     { text: "TypeScript", Icon: SiTypescript },
     { text: "Tailwind", Icon: SiTailwindcss },
     { text: "Supabase", Icon: SiSupabase },
+    { text: "Python", Icon: SiPython },
+    { text: "Django", Icon: SiDjango },
+    { text: "Postgresql", Icon: SiPostgresql },
   ];
   return (
     <div className="max-w-5xl mx-auto px-8">

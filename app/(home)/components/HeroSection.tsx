@@ -14,10 +14,11 @@ const HeroSection = () => {
           </span>
         </h1>
         <p className="md:w-96 text-lg text-gray-300 text-center lg:text-left">
-          I am not just a front-end developper, i am also a creative
-          problem-solver with 2 years of experience. <br /> My main focus is on
-          creating modern and responsive web applications using the latest
-          technologies.
+          I am a Fullstack Developer with 3 years of experience, specializing in
+          building robust web applications using technologies like REACT,
+          NEXT.JS, and TYPESCRIPT. In addition to my expertise in front-end
+          development, I have acquired backend development knowledge in PYTHON
+          and JAVA, allowing me to manage the entire lifecycle of applications.
         </p>
         <Link
           href={"mailto:alysall2001@gmail.com"}

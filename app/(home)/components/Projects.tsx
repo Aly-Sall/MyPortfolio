@@ -5,6 +5,7 @@ import {
   SiSupabase,
   SiTypescript,
   SiPrisma,
+  SiPython,
 } from "react-icons/si";
 import Title from "./Title";
 import Link from "next/link";
@@ -25,6 +26,13 @@ export default function Projects() {
       tech: [SiNextdotjs, SiTailwindcss, SiSupabase, SiTypescript, SiPrisma],
       link: "https://easynotes-ten.vercel.app/",
       cover: "/easyNotes.png",
+      background: "bg-green-500",
+    },
+    {
+      title: "ALienInvasion",
+      tech: [SiPython],
+      link: "https://github.com/Aly-Sall/Alien_Invasion/",
+      cover: "/bixq32j0.bmp",
       background: "bg-green-500",
     },
   ];
